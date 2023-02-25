@@ -2,7 +2,15 @@
 
 / {
 	chosen {
-		zmk,underglow = &led_strip,battery-voltage-divider;
+		zmk,underglow = &led_strip;
+		zmk,battery = &vbatt;
+	};
+	vbatt: vbatt {
+		compatible = "zmk,battery-voltage-divider";
+		label = "BATTERY";
+		io-channels = <&adc 2>;
+		output-ohms = <2000000>;
+		full-ohms = <(2000000 + 820000)>;
 	};
 };
 
@@ -29,4 +37,3 @@
 		color-mapping = <LED_COLOR_ID_GREEN LED_COLOR_ID_RED LED_COLOR_ID_BLUE>;
 	};
 };
-
