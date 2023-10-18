@@ -50,10 +50,10 @@
             //                       |     |     | RET | ADJ |     |
 
             bindings = <
-&trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5             &kp NUMBER_6  &kp N7  &kp NUMBER_8  &kp NUMBER_9  &kp N0  &kp BACKSPACE
-&kp DELETE  &trans        &trans        &trans        &trans        &trans                   &trans        &trans  &trans        &trans        &trans  &trans
-&trans      &trans        &trans        &trans        &trans        &trans                   &trans        &trans  &trans        &kp DOT       &trans  &trans
-                                        &trans        &trans                      &kp SPACE                &mo 3   &trans
+&trans      &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3    &kp NUMBER_4     &kp NUMBER_5             &kp NUMBER_6  &kp N7  &kp NUMBER_8  &kp NUMBER_9  &kp N0  &kp BACKSPACE
+&kp DELETE  &trans        &trans          &kp UP_ARROW    &trans           &trans                   &trans        &trans  &trans        &trans        &trans  &trans
+&trans      &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                   &trans        &trans  &trans        &kp DOT       &trans  &trans
+                                          &trans          &trans                         &kp SPACE                &mo 3   &trans
             >;
         };
 
@@ -65,10 +65,10 @@
             //                       |     | ADJ | BKSP |    |     |
 
             bindings = <
-&trans  &kp EXCL   &kp AT     &kp HASH   &kp DLLR  &kp PERCENT             &kp CARET  &kp AMPERSAND  &kp ASTRK  &kp LBRC  &kp RBRC  &kp CAPS
-&trans  &kp EQUAL  &kp SLASH  &kp ASTRK  &kp PLUS  &kp MINUS               &kp F1     &kp BACKSPACE  &kp DEL    &kp LPAR  &kp RPAR  &kp ENTER
-&trans  &kp ESC    &kp INS    &kp RALT   &kp CLCK  &kp SQT                 &kp F7     &kp F8         &kp F9     &kp F10   &kp F11   &kp F12
-                              &trans     &mo 3                  &kp SPACE             &trans         &trans
+&kp F1  &kp F2     &kp F3     &kp F4     &kp F5    &kp F6                &kp F7  &kp F8         &kp F9   &kp F10   &kp F11   &kp F12
+&trans  &kp EQUAL  &kp SLASH  &kp ASTRK  &kp PLUS  &kp MINUS             &kp F1  &kp BACKSPACE  &kp DEL  &kp LPAR  &kp RPAR  &kp ENTER
+&trans  &kp ESC    &kp INS    &kp RALT   &kp CLCK  &kp SQT               &kp F7  &kp F8         &kp F9   &kp F10   &kp F11   &kp F12
+                              &trans     &mo 3                &kp SPACE          &trans         &trans
             >;
         };
 
