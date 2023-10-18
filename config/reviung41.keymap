@@ -35,9 +35,9 @@
             //                         | ALT | LWR | SPC | RSE  | ALT |
 
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E      &kp R        &kp T                 &kp Y  &kp U        &kp I      &kp O      &kp P     &kp BSPC
-&kp TAB    &kp A  &kp S  &kp D      &kp F        &kp G                 &kp H  &kp J        &kp K      &kp L      &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C      &kp V        &kp B                 &kp B  &kp N        &kp M      &kp COMMA  &kp DOT   &kp SLASH
+&kp ESC    &kp Q  &kp W  &kp E      &kp R        &kp T                 &kp Y  &kp U        &kp I      &kp O      &kp P         &kp BSPC
+&kp TAB    &kp A  &kp S  &kp D      &kp F        &kp G                 &kp H  &kp J        &kp K      &kp L      &kp SEMI      &kp SQT
+&kp LSHFT  &kp Z  &kp X  &kp C      &kp V        &kp B                 &kp B  &kp N        &kp M      &kp COMMA  &kp QUESTION  &kp RIGHT_SHIFT
                          &kp ENTER  &lt 1 SPACE         &kp BACKSPACE         &lt 2 SPACE  &kp ENTER
             >;
         };
@@ -52,7 +52,7 @@
             bindings = <
 &trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5             &kp NUMBER_6  &kp N7  &kp NUMBER_8  &kp NUMBER_9  &kp N0  &kp BACKSPACE
 &kp DELETE  &trans        &trans        &trans        &trans        &trans                   &trans        &trans  &trans        &trans        &trans  &trans
-&trans      &trans        &trans        &trans        &trans        &trans                   &trans        &trans  &trans        &trans        &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &trans                   &trans        &trans  &trans        &kp DOT       &trans  &trans
                                         &trans        &trans                      &kp SPACE                &mo 3   &trans
             >;
         };
