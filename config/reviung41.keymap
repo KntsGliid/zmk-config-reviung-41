@@ -51,8 +51,8 @@
 
             bindings = <
 &trans      &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3    &kp NUMBER_4     &kp NUMBER_5             &kp NUMBER_6  &kp N7  &kp NUMBER_8  &kp NUMBER_9      &kp N0            &kp BACKSPACE
-&kp DELETE  &kp LEFT_ALT  &trans          &kp UP_ARROW    &trans           &trans                   &trans        &trans  &trans        &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                   &trans        &trans  &trans        &kp DOT           &trans            &trans
+&kp DELETE  &trans        &trans          &kp UP_ARROW    &trans           &trans                   &trans        &trans  &trans        &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                   &trans        &trans  &trans        &kp DOT           &kp RIGHT_ALT     &trans
                                           &trans          &trans                         &kp SPACE                &mo 3   &trans
             >;
         };
