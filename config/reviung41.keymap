@@ -50,10 +50,10 @@
             //                       |     |     | RET | ADJ |     |
 
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5             &kp NUMBER_6  &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp N0        &kp BACKSPACE
-&trans  &trans        &trans        &kp LCTRL     &kp BACKSPACE  &kp DELETE               &kp LEFT      &kp LEFT      &kp DOWN      &kp RIGHT     &kp SQT       &kp NUHS
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5             &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp INS
-                                    &trans        &trans                       &kp SPACE                &mo 3         &trans
+&trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5             &kp NUMBER_6  &kp N7  &kp NUMBER_8  &kp NUMBER_9  &kp N0  &kp BACKSPACE
+&kp DELETE  &trans        &trans        &trans        &trans        &trans                   &trans        &trans  &trans        &trans        &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &trans                   &trans        &trans  &trans        &trans        &trans  &trans
+                                        &trans        &trans                      &kp SPACE                &mo 3   &trans
             >;
         };
 
