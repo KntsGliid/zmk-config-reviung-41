@@ -35,8 +35,8 @@
             //                         | ALT | LWR | SPC | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E      &kp R        &kp T                 &kp Y  &kp U        &kp I      &kp O      &kp P     &kp BSPC
-&kp LCTRL  &kp A  &kp S  &kp D      &kp F        &kp G                 &kp H  &kp J        &kp K      &kp L      &kp SEMI  &kp SQT
+&kp ESC    &kp Q  &kp W  &kp E      &kp R        &kp T                 &kp Y  &kp U        &kp I      &kp O      &kp P     &kp BSPC
+&kp TAB    &kp A  &kp S  &kp D      &kp F        &kp G                 &kp H  &kp J        &kp K      &kp L      &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z  &kp X  &kp C      &kp V        &kp B                 &kp B  &kp N        &kp M      &kp COMMA  &kp DOT   &kp SLASH
                          &kp ENTER  &lt 1 SPACE         &kp BACKSPACE         &lt 2 SPACE  &kp ENTER
             >;
@@ -50,8 +50,8 @@
             //                       |     |     | RET | ADJ |     |
 
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH      &kp DLLR       &kp PRCNT                &kp CARET     &kp HOME      &kp UP        &kp END       &kp LBKT      &kp RBKT
-&trans  &kp UNDER     &kp LSHFT     &kp LCTRL     &kp BACKSPACE  &kp DELETE               &kp LEFT      &kp LEFT      &kp DOWN      &kp RIGHT     &kp SQT       &kp NUHS
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5             &kp NUMBER_6  &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp N0        &kp BACKSPACE
+&trans  &trans        &trans        &kp LCTRL     &kp BACKSPACE  &kp DELETE               &kp LEFT      &kp LEFT      &kp DOWN      &kp RIGHT     &kp SQT       &kp NUHS
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5             &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp INS
                                     &trans        &trans                       &kp SPACE                &mo 3         &trans
             >;
